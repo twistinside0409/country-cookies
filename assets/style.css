@@ -1,6 +1,14 @@
+a {
+    text-decoration: none;
+    color: palevioletred;
+    
+}
 #bkgrnd {
     background-image: url("photos/bkgrnd.jpg");
     background-repeat: repeat;
+}
+h1 {
+    font-size: 3em;
 }
 
 .hero {
@@ -29,6 +37,11 @@
     font-size: 4em;
 }
 
-#footer1 li {
-    text-decoration: none;
+p {
+    font-size: 2em;
 }
+
+main {
+    border: 2px black;
+    }
+
