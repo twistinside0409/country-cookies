@@ -11,7 +11,7 @@
     <link rel="icon" href="assets/photos/cookieicon.png" type="image/icon type">
 </head>
 <body id="bkgrnd">
-    <nav class="navbar navbar-expand-lg bg-light opacity-75 border-bottom border-5 border-opacity-75 border-dark">
+    <nav class="navbar navbar-expand-lg bg-light opacity-75 border-bottom border-5 border-opacity-75 border-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><img src="assets/photos/cookieicon.png" alt="" width="30" height="24" class="d-inline-block align-text-top">Country Cookies</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,9 +29,6 @@
                 <a class="nav-link" href="login.html">Login</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="registration.html">Register</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>         
             </ul>
@@ -40,28 +37,25 @@
     </nav>
     <!--end nav-->
     <div class="container d-flex justify-content-center border-bottom border-5 border-opacity-75 border-dark mb-5 mt-5 pb-5">
-            <h1 class="text-center">Login</h1>
+            <h1 class="text-center mt-5">Login</h1>
     </div>
 
     <div class="container d-flex justify-content-center">
         <form class="p-3 border border-5 border-dark border-opacity-75">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <label for="InputEmail1" class="form-label">Email address:</label>
+              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
               <div id="emailHelp" class="form-text"></div>
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <label for="exampleInputPassword1" class="form-label">Password:</label>
               <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-                <!--fix checkbox to show pw-->
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Show Password</label>
             </div>
             <button type="submit" class="btn btn-secondary">Submit</button>
           </form>
     </div>
+
+
     <div class="container d-flex justify-content-center border-top border-5 border-opacity-75 border-dark mb-5 mt-5 pt-5 pb-5">
             <h2 class="text-center">New here?  <a href="registration.html">Sign up!</a></h2>
     </div>
