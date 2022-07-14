@@ -95,13 +95,8 @@
         
                 <div class="row">
                     <div class="col-md-5 mb-3">
-                        <select class="custom-select d-block w-100 mt-2 border-dark" id="country" required>
-                            <option disabled selected>Country</option>
-                            <option>United States</option>
-                        </select>
-                        <div class="invalid-feedback">
-                            Please select a valid country.
-                        </div>
+                        <input type="text" class="form-control border-dark" id="inputCity" required>
+                        <label for="inputCity" class="form-label">City</label>
                     </div>
                     <div class="col-md-4 mb-3">
                         <select class="custom-select d-block w-100 mt-2 border-dark" id="state" required>
@@ -162,7 +157,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 mb-3">
-                        <div class="md-form md-outline mt-2 mb-0">
+                        <div class="md-form md-outline mb-0">
                             <input type="text" id="zip" class="form-control mb-0 border-dark" required>
                             <label for="zip">Zip</label>
                         </div>
