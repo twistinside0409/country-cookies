@@ -23,6 +23,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-top: 60px;
     }
 
 .hero-text {
@@ -54,4 +55,6 @@ h1 {
     background-color: rgba(255, 255, 255, 0.6);
 }
 
-
+.lgmargin {
+    margin-bottom: 80px
+}

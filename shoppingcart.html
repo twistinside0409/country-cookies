@@ -37,17 +37,17 @@
     </nav>
     <!--end nav-->
     <div class="container d-flex justify-content-center border-bottom border-5 border-opacity-75 border-dark mb-5 mt-5 pb-5">
-        <h1 class="text-center mt-5">Shopping Cart</h1>
+        <h1 class="text-center mt-5 cookiefont display-1">Shopping Cart</h1>
     </div>
     <!--end header-->
 
 
 
-    <div class="row row-cols-1 row-cols-md-3 d-flex justify-content-center">
+    <div class="row row-cols-1 row-cols-md-3 d-flex justify-content-center lgmargin">
 
         <div class="col">
 
-            <div class="col-md-8 order-md-1 border border-dark border-3 ms-5 me-5 mb-5 p-2 bkclear">
+            <div class="col-md-8 order-md-1 border border-dark border-3 ms-5 me-5 mb-5 p-2 bkclear fw-bold">
                 <h4 class="mb-3"><strong>Billing address</strong></h4>
                 <form class="needs-validation" novalidate>
                 <div class="row">
@@ -71,21 +71,11 @@
                     </div>
                 </div>
         
-                <div class="mb-3">
-                        <div class="md-form md-outline my-2">
-                        <input type="text" id="username" class="form-control border-dark" required>
-                        <label for="username">Username</label>
-                        </div>
-                        <div class="invalid-feedback">
-                        Your username is required.
-                        </div>
-                </div>
-        
                 <div class="row">
                     <div class="col-12 mb-3">
                         <div class="md-form md-outline my-2">
                             <input type="email" id="email" class="form-control border-dark">
-                            <label for="email">Email (Optional)</label>
+                            <label for="email">Email</label>
                         </div>
                         <div class="invalid-feedback">
                             Please enter a valid email address for shipping updates.
@@ -106,7 +96,7 @@
                 <div class="row">
                     <div class="col-md-5 mb-3">
                         <select class="custom-select d-block w-100 mt-2 border-dark" id="country" required>
-                            <option value="">Country</option>
+                            <option disabled selected>Country</option>
                             <option>United States</option>
                         </select>
                         <div class="invalid-feedback">
@@ -115,7 +105,7 @@
                     </div>
                     <div class="col-md-4 mb-3">
                         <select class="custom-select d-block w-100 mt-2 border-dark" id="state" required>
-                            <option selected disabled>Choose...</option>
+                            <option selected disabled>State</option>
                             <option>Alabama</option>
                             <option>Alaska</option>
                             <option>Arizona</option>
@@ -196,19 +186,19 @@
                 <!--item containers-->
         <div class="col">
             
-            <div class="container mb-4 bkclear justify-content-center"> <!--main sugar container-->
+            <div class="container mb-4 bkclear"> <!--main sugar container-->
                 <div>
                     <div class="border border-dark border-3 row row-cols-4">
-                        <div class="col p-2">
-                            <img src="assets/photos/sugarcookiesmall.jpg" href="cookies.html" alt="sugar cookie" class="border border-dark border-3">
+                        <div class="col p-1">
+                            <img src="assets/photos/sugarcookiesmall.jpg" href="cookies.html" alt="sugar cookie" class="img-fluid border border-dark border-3">
                         </div>
-                        <div class="col align-self-end justify-content-md-end ps-4 pe-3 lh-lg">
+                        <div class="col align-self-end align-self-md-center">
                             <h2>Classic Sugar</h2>
                         </div>
-                        <div class="col justify-content-center align-self-center p-2">
+                        <div class="col justify-content-center align-self-center ps-0">
                             <h2>$4.99 ea.</h2>
                         </div>
-                        <div class="col p-2 align-self-center justify-content-center">
+                        <div class="col align-self-center justify-content-center p-0">
                             <h3>Quantity:</h3>
                             <select class="form select">
                                 <option selected>1</option>
@@ -232,16 +222,16 @@
             <div class="container bkclear"> <!--main triple choc container-->
                 <div> <!--mystery div-->
                     <div class="border border-dark border-3 row row-cols-4">
-                        <div class="col justify-content-center p-2">
-                            <img src="assets/photos/triplechocsmall.jpg" href="cookies.html" alt="triple chocolate cookie" class="border border-dark border-3">
+                        <div class="col p-1">
+                            <img src="assets/photos/triplechocsmall.jpg" href="cookies.html" alt="triple chocolate cookie" class="img-fluid border border-dark border-3">
                         </div>
-                        <div class="col align-self-end ps-4 pe-3 lh-lg">
+                        <div class="col align-self-end align-self-md-center pb-0">
                             <h2>Triple Chocolate</h2>
                         </div>
-                        <div class="col justify-content-center align-self-center p-2">
+                        <div class="col justify-content-center align-self-center ps-0">
                             <h2>$4.99 ea.</h2>
                         </div>
-                        <div class="col p-2 align-self-center">
+                        <div class="col align-self-center justify-content-center p-0">
                             <h3>Quantity:</h3>
                             <select class="form select">
                                 <option selected>1</option>
